@@ -1,0 +1,25 @@
+{
+  "name": "twitter-watson",
+  "version": "1.0.0",
+  "description": "IBM Watson integration for Twitter",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akhilben/twitter-watson.git"
+  },
+  "author": "Akhil Ben",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/akhilben/twitter-watson/issues"
+  },
+  "homepage": "https://github.com/akhilben/twitter-watson#readme",
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "express": "^4.16.2",
+    "twit": "^2.2.9",
+    "watson-developer-cloud": "^3.0.5"
+  }
+}
